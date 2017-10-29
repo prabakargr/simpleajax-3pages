@@ -1,0 +1,38 @@
+.header{
+	background-color: #28a745;
+}
+.web_name{
+	font-size: 20px;
+	font-weight: 500;
+}
+@media(max-width:576px){
+	.heading_bus{
+		text-align: center;
+	}
+}
+.topic_form{
+	background-color: #28a745;
+}
+@media(min-width:991px){
+	.container{
+		width: 800px;
+	}
+	.contact{
+        padding-left: 10%;
+	}
+}
+.footer{
+	background-color: #28a745;
+}
+.error{
+	color: red;
+}
+.user_icon{
+	background-color: #28a745;
+}
+.login_content{
+	margin-top:18%;
+}
+.button_login{
+	margin-bottom: 18%;
+}

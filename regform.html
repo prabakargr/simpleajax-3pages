@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+<div class="container-fluid">
+		<div class="row heading_bus header">
+			<div class="col-md-8 py-3 text-white ">
+				<i class="fa fa-book fa-3x pl-2 " aria-hidden="true"></i><span class="pl-2 web_name"><i>trio</i>School</span>
+			</div>
+			<!-- <div class="col-7 col-md-4 py-4 text-white">
+				<i class="fa fa-envelope fa-x" aria-hidden="true"></i><span class="pl-1">support@mail.com</span>
+			</div> -->
+			<div class="col-md-4 py-4  text-white contact">
+				<i class="fa fa-phone" aria-hidden="true"></i><span class="pl-1">Contact Us</span><br>
+				<i class="fa fa-envelope fa-x" aria-hidden="true"></i><span class="pl-1">support@mail.com</span>
+			</div>
+		</div>
+</div>
+<div class="container">		
+		<div class="row text-center mt-2 ">
+			<div class="col-md-12 topic_form">
+				<h4 class="text-white">Admission Reg</h4>
+			</div>
+		</div>
+		<form id="submitdetails" onsubmit="return false">
+		<div class="row pt-3">
+			<div class="col-md-2">
+				
+			</div>
+			<div class="col-md-8">
+			     <label for="disabledTextInput">Name</label>
+				<input type="text" name="stname" class="form-control border-success"
+				id="sname">
+			</div>
+			<div class="col-md-2">
+				
+			</div>
+		</div>
+		<div class="row pt-3">
+			<div class="col-md-2">
+				
+			</div>
+			<div class="col-md-4">
+				<label for="disabledTextInput">DOB</label>
+				<input type="date" name="stdob" class="form-control border-success" id="dob">
+			</div>
+			<div class="col-md-4">
+				<label for="disabledTextInput">Gender</label><br>
+				<select class="custom-select border-success w-100" name="stgender"   id="gender">
+                  <option value="">Select Gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Others">Others</option> 
+                 </select>
+				<!-- <input type="" name="" class="form-control border-success"> -->
+			</div>
+			<div class="col-md-2">
+				
+			</div>
+		</div>
+		<div class="row pt-3">
+			<div class="col-md-2">
+				
+			</div>
+			<div class="col-md-8">
+			     <label for="disabledTextInput">Gaurdien Name</label>
+				<input type="text" name="stgname" class="form-control border-success" id="gname">
+			</div>
+			<div class="col-md-2">
+				
+			</div>
+		</div>
+		<div class="row pt-3">
+			<div class="col-md-2">
+				
+			</div>
+			<div class="col-md-8">
+				<label for="disabledTextInput" class="pt-3">Contact</label>
+				<input type="" name="stcontact" class="form-control border-success"
+				id="contact">
+			</div>
+			<div class="col-md-2">
+				
+			</div>
+		</div>
+		<div class="row text-center pt-3">
+		    <div class="col-md-3">
+				
+			</div>
+			<div class="col-md-3 mt-2">
+				<button class="btn btn-success" id="btn_submit_details" type="submit">Submit</button>
+			</div>
+			<div class="col-md-3 mt-2">
+			    <a href="checklists.html">
+				<input type="button" name="" value="Check List" class="btn btn-success">
+				</a>
+			</div>
+			<div class="col-md-3">
+				
+			</div>
+		</div>	
+		</form>
+		<div class="row text-center mt-4">
+			<div class="col">
+				<a href="index.html">
+					<input type="button" name="" value="Logout" class="btn btn-success">
+				</a>
+			</div>
+		</div>
+</div>
+<div class="container-fluid">		
+		<div class="row text-center py-3 footer mt-4">
+			<div class="col-md-6 text-white">
+				<p>Copyrights@Triodesk</p>
+			</div>
+			<div class="col-md-6">
+				<a href="#terms" class="text-white">Terms & Conditions</a>
+			</div>
+		</div>
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script type="text/javascript" src="school.js"></script>
+</body>
+</html>
